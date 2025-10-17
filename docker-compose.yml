@@ -1,5 +1,5 @@
  version: "3.8"
-services:
+ services:
   web:
     image: php:8.2-apache
     ports:
@@ -11,5 +11,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: demo
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      MYSQL_USER: Iker
+      MYSQL_PASSWORD: p@ssw0rd
