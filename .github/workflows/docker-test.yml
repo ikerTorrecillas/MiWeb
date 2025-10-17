@@ -37,6 +37,7 @@ jobs:
         id: ngrok
         run: |
           # Llança ngrok en background
+          pkill ngrok || true
           /usr/local/bin/ngrok http 8080 --log=stdout > ngrok.log &
           NGROK_PID=$!
           
